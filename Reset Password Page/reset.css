@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  width: 400px;
+}
+body {
+  background: #af97de;
+  justify-content: center;
+  align-items: center;
+}
+/* Add padding to containers */
+div.container {
+  padding-right: 5px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-top: 100px;
+  margin: 100px auto 0px auto;
+  background-color: #fcfaff;
+  width: 130%;
+
+  font-size: 18px;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 10px;
+  margin-left: 50% !important;
+}
+
+h1 {
+  text-align: left;
+  margin-left: -20px;
+  padding: 20px;
+  font-family: "Space Grotesk";
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #2f2d33;
+}
+
+b {
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Full-width input fields */
+
+input#email {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 15px !important;
+  background-color: #ffffff;
+  font-family: "Space Grotesk";
+}
+
+input#psw-new {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 15px;
+  background-color: #ffffff;
+  font-family: "Space Grotesk";
+}
+
+input#psw-confirm-new {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 15px;
+  background-color: #ffffff;
+  font-family: "Space Grotesk";
+}
+
+/*input [type=text],
+input [ type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block ;
+ border: 0.5px solid #BEBAC2 ;
+ border-radius: 8px ;
+ background: #FFFFFF ;
+ color: #BEBAC2 ; 
+ position: absolute;
+}*/
+
+form {
+  margin: 40px;
+}
+
+.btns {
+  text-align: center;
+  font-size: 23px;
+  color: #404040;
+  padding-left: 150px;
+  text-decoration: none;
+  margin: 40px 0 0 0;
+  gap: 56px;
+}
+.btns .btn1 {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background: #876ac4;
+  padding: 16px;
+  border: 1px solid #876ac4;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: -130px;
+  width: 96px;
+  height: 58px;
+  gap: 10px;
+}
+.btns .btn2 {
+  text-align: center !important;
+  font-size: 18px;
+  background: white;
+  color: #866ac4;
+  padding: 16px;
+  border: 1px solid #876ac4;
+  border-radius: 4px;
+  text-decoration: none !important;
+  margin-left: 50px;
+  gap: 10px;
+  width: 93px;
+  height: 56px;
+}
+.btn1:hover {
+  transition: 0.5s;
+  background: #9a7fd8;
+}
+.btn2:hover {
+  transition: 0.5s;
+  background: #cac4c4;
+}
+p {
+  color: #4f4d54;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Space Grotesk";
+  line-height: 28px;
+  width: 414px;
+}
+@media screen and ( max-width: 1024px) { 
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+    width: 400px;
+  }
+  body {
+    background: #af97de;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  div.container {
+    padding-right: 5px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin: 100px auto 0px auto;
+    background-color: #fcfaff;
+    width: 100%;
+  
+    font-size: 18px;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 10px;
+    margin-left: 50% !important;
+  }
+
+  input#email {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 15px !important;
+    background-color: #ffffff;
+    font-family: "Space Grotesk";
+  }
+  
+  input#psw-new {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 15px;
+    background-color: #ffffff;
+    font-family: "Space Grotesk";
+  }
+  
+  input#psw-confirm-new {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 15px;
+    background-color: #ffffff;
+    font-family: "Space Grotesk";
+  }
+  
+  p {
+    color: #4f4d54;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Space Grotesk";
+    line-height: 28px;
+    width: 350px;
+  }
+
+  .btns .btn1 {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background: #876ac4;
+    padding: 16px;
+    border: 1px solid #876ac4;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: -250px;
+    width: 96px;
+    height: 58px;
+    gap: 10px;
+  }
+
+}
